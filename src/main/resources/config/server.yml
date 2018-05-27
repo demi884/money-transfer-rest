@@ -1,0 +1,15 @@
+ip: 0.0.0.0
+httpPort:  8080
+enableHttp: false
+httpsPort:  8443
+enableHttps: true
+enableHttp2: true
+keystoreName: tls/server.keystore
+enableTwoWayTls: false
+truststoreName: tls/server.truststore
+serviceId: org.revoult.money-transfer-1.0
+enableRegistry: false
+dynamicPort: false
+minPort: 2400
+maxPort: 2500
+
