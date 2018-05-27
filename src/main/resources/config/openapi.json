@@ -25,7 +25,7 @@
   ],
   "openapi": "3.0.0",
   "paths": {
-    "/transactions": {
+    "/v1/transactions": {
       "get": {
         "responses": {
           "200": {
@@ -40,7 +40,7 @@
         }
       }
     },
-    "/pending_transactions": {
+    "/v1/pending_transactions": {
       "get": {
         "responses": {
           "200": {
@@ -55,7 +55,7 @@
         }
       }
     },
-    "/transactions/{transactionId}": {
+    "/v1/transactions/{transactionId}": {
       "get": {
         "parameters": [
           {
@@ -139,7 +139,7 @@
         ]
       }
     },
-    "/transfer": {
+    "/v1/transfer": {
       "post": {
         "responses": {
           "200": {
