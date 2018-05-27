@@ -283,7 +283,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.revoult.Main</mainClass>
+                            <mainClass>org.revolut.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

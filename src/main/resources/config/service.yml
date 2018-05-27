@@ -1,5 +1,5 @@
 singletons:
 
 - com.networknt.server.HandlerProvider:
-  - org.revoult.RestHandlerProvider
+  - org.revolut.RestHandlerProvider
 
